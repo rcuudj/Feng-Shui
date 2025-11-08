@@ -1,0 +1,41 @@
+.hero {
+  display: flex;
+  background: url(../image/header-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  min-height: 920px;
+  margin-bottom: 140px;
+}
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  flex-grow: 1;
+  gap: 40px;
+}
+.hero__content h1 {
+  font-weight: 400;
+  font-size: 74px;
+  text-transform: uppercase;
+  color: #eee;
+}
+.hero__content p {
+  font-weight: 400;
+  font-size: 24px;
+  color: #eee;
+  width: 984px;
+}
+.hero__content button {
+  border: 2px solid #eee;
+  font-weight: 400;
+  font-size: 24px;
+  color: #eee;
+  cursor: pointer;
+  padding: 27px 106px 26px;
+  transition: 0.5s;
+}
+.hero__content button:hover {
+  transform: scale(1.1);
+}

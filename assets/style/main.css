@@ -1,0 +1,75 @@
+@import "./fonts.css";
+@import "./reset.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./shop.css";
+@import "./bestsellers.css";
+@import "./about.css";
+@import "./footer.css";
+
+.container {
+  width: 100%;
+  max-width: 1734px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/* .subtitle-line {
+  font-weight: 400;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #242424;
+  position: relative;
+  margin-bottom: 40px;
+  display: block;
+}
+.subtitle-line::before {
+  content: "";
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 144px;
+  height: 2px;
+  background: #242424;
+  transform: translate(50%, -50%);
+} */
+.subtitle-line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  gap: 20px;
+}
+.subtitle-line h2 {
+  font-weight: 400;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #242424;
+}
+.subtitle-line-dash {
+  width: 144px;
+  height: 2px;
+  background: #242424;
+}
+.subtitle-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.subtitle-info p {
+  font-weight: 400;
+  font-size: 24px;
+  color: #242424;
+}
+.subtitle-info p:nth-of-type(2) {
+  font-weight: 400;
+  font-size: 16px;
+  color: #6c6c6c;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+input[type="checkbox"] {
+  display: none;
+}
+html {
+  scroll-behavior: smooth;
+}
