@@ -29,15 +29,9 @@
   width: 100%;
   height: 100%;
 }
-label
-  input[type="checkbox"]:checked
-  ~ .bestsellers__content-gallery-item-options
-  .favorite
-  svg
-  path {
+.bestsellers__content-gallery-item input[type=checkbox]:checked~ .bestsellers__content-gallery-item-options label .favorite svg path{
   fill: #242424;
 }
-
 .bestsellers__content-gallery-item-sale {
   position: absolute;
   top: 24px;
